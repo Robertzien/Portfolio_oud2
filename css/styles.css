@@ -252,6 +252,7 @@
 .contact div {
     align-items: center;
     text-align: center;
+    font-size: 1.3vw;
 }
 
 .contact div i {
@@ -265,14 +266,13 @@
     margin-top: 130px;
     padding: 20px;
     font-weight: 200;
+    font-size: 1.5vw;
 }
 
-.backtotop {
-    width: 40px;
-    height: 40px;
-    border: solid 3px #FFA225;
-    position: fixed;
-    top: 83%;
-    right: 3.5%;
+.linkedin h3 {
+    font-size: 1.4vw;
 }
 
+.email h3 {
+    font-size: 1.4vw;
+}
