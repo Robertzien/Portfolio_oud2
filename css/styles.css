@@ -1,278 +1,279 @@
 * {
-    margin: 0;
-    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin: 0;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
 #section1 {
-    height: 100%;
-    background: linear-gradient(to bottom, #0F0F0E 50%, #FFFFFF 50%);
+  height: 100%;
+  background: linear-gradient(to bottom, #0f0f0e 50%, #ffffff 50%);
 }
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .intro-title {
-    color: #FFA225;
-    font-size: 2.7vw;
-    font-weight: 600;
-    margin-top: 3%;
+  color: #ffa225;
+  font-size: 2.7vw;
+  font-weight: 600;
+  margin-top: 3%;
 }
 
 .intro-image {
-    max-width: 32%;
-    height: auto;
-    margin-top: 3%;
-    border: solid 5px #0F0F0E;
+  max-width: 32%;
+  height: auto;
+  margin-top: 3%;
+  border: solid 5px #0f0f0e;
 }
 
 .intro-text {
-    font-size: 1.5vw;
-    width: 800px;
-    font-weight: 400;
-    margin-top: 2.5%;
+  font-size: 1.5vw;
+  width: 800px;
+  font-weight: 400;
+  margin-top: 2.5%;
 }
 
 .intro-buttons {
-    margin-top: 1%;
+  margin-top: 1%;
 }
 
 .intro-buttons button {
-    width: 15vw;
-    margin: 20px;
-    height: 3vw;
-    border: solid #0F0F0E 2px;
-    background: #FFA225;
-    font-size: 1.2vw;
-    transition: ease-out 0.4s;
+  width: 15vw;
+  margin: 20px;
+  height: 3vw;
+  border: solid #0f0f0e 2px;
+  background: #ffa225;
+  font-size: 1.2vw;
+  transition: ease-out 0.4s;
 }
 
 .intro-buttons button:hover {
-    background: #0F0F0E;
-    color: #FFFFFF;
-    cursor: pointer;
-    box-shadow: inset 350px 0 0 0 #0F0F0E;
+  background: #0f0f0e;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: inset 350px 0 0 0 #0f0f0e;
 }
 
 .logo {
-    position: absolute;
-    top: 5%;
-    left: 3%;
-    width: 5.6vw;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  width: 5.6vw;
 }
 
 .nav-menu {
-    position: absolute;
-    right: 3%;
-    top: 5%;
-    border-right: solid #FFA225 2px;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  border-right: solid #ffa225 2px;
 }
 
 .nav-links {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-links li {
-    color: #FFFFFF;
-    text-align: right;
-    margin: 17px;
-    font-size: 1.5vw;
-    font-style: italic;
+  color: #ffffff;
+  text-align: right;
+  margin: 17px;
+  font-size: 1.5vw;
+  font-style: italic;
 }
 
 .nav-links li a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .nav-links li a:hover {
-    color: #FFA225;
-    cursor: pointer;
+  color: #ffa225;
+  cursor: pointer;
 }
 
 #section2 {
-    background-color: #0F0F0E;
-    margin-top: 4%;
+  background-color: #0f0f0e;
+  margin-top: 4%;
 }
 
 .about-title {
-    text-align: center;
-    padding-top: 4%;
-    color: #FFA225;
+  text-align: center;
+  padding-top: 4%;
+  color: #ffa225;
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4%;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  text-align: center;
 }
 
-#about-text  {
-    color: #FFFFFF;
-    font-size: 28px;
+#about-text {
+  color: #ffffff;
+  font-size: 28px;
 }
 
 #section2 button {
-    width: 80px;
-    max-height: 80px;
-    margin-top: 4%;
-    border: solid #FFA225 2px;
-    background-color: #0F0F0E;
-    cursor: pointer;
-    margin-bottom: 4%;
+  width: 80px;
+  max-height: 80px;
+  margin-top: 4%;
+  border: solid #ffa225 2px;
+  background-color: #0f0f0e;
+  cursor: pointer;
+  margin-bottom: 4%;
 }
 
 #section2 button i {
-    color: white;
-    font-size: 2vw;
-    transition: 0.4s;
-    padding: 14px;
+  color: white;
+  font-size: 2vw;
+  transition: 0.4s;
+  padding: 14px;
 }
 
 #section2 button:hover i {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .section3-title {
-    padding-top: 4% ;
-    text-align: center;
-    color: #FFA225;
+  padding-top: 4%;
+  text-align: center;
+  color: #ffa225;
 }
 
 .project {
-    display: flex;
-    padding-top: 6%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 3%;
+  display: flex;
+  padding-top: 6%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3%;
 }
 
 .project-left {
-    width: 27%;
+  width: 27%;
 }
 
 .project-title {
-    color: #FFA225;
-    padding-bottom: 4%;
-    font-weight: 400;
+  color: #ffa225;
+  padding-bottom: 4%;
+  font-weight: 400;
 }
 
 .project-description {
-    font-size: 18px;
+  font-size: 1.15vw;
 }
 
 .project-image {
-    width: 45%;
-    border: solid #0F0F0E 5px;
-    margin-top: 3.5% ;
+  width: 45%;
+  border: solid #0f0f0e 5px;
+  margin-top: 3.5%;
 }
 
 .project-button {
-    width: 15vw;
-    height: 3vw;
-    border: solid #0F0F0E 2px;
-    background: #FFA225;
-    font-size: 1.2vw;
-    transition: ease-out 0.4s;
-    margin-top: 8%;
+  width: 15vw;
+  height: 3vw;
+  border: solid #0f0f0e 2px;
+  background: #ffa225;
+  font-size: 1.2vw;
+  transition: ease-out 0.4s;
+  margin-top: 8%;
 }
 
 .project-button a {
-    text-decoration: none;
-    color: #0F0F0E;
-    transition: ease-out 0.4s;
+  text-decoration: none;
+  color: #0f0f0e;
+  transition: ease-out 0.4s;
 }
 
 .project-button:hover {
-    background: #0F0F0E;
-    cursor: pointer;
-    box-shadow: inset 350px 0 0 0 #0F0F0E;
-    color: #FFFFFF;
+  background: #0f0f0e;
+  cursor: pointer;
+  box-shadow: inset 350px 0 0 0 #0f0f0e;
+  color: #ffffff;
 }
 
 .project-button:hover a {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 #section4 {
-    background-color: #0F0F0E;
-    margin-top: 4%;
+  background-color: #0f0f0e;
+  margin-top: 4%;
 }
 
 .section4-title {
-    text-align: center;
-    padding-top: 4%;
-    color: #FFA225;
+  text-align: center;
+  padding-top: 4%;
+  color: #ffa225;
 }
 
 .contact {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 7%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7%;
 }
 
 .contact h3 {
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 300;
-    margin-top: 30px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 30px;
 }
 
 .contact button {
-    width: 15vw;
-    height: 3vw;
-    border: solid #0F0F0E 2px;
-    background: #FFA225;
-    font-size: 1.2vw;
-    transition: ease-out 0.4s;
-    margin-top: 40px;
+  width: 15vw;
+  height: 3vw;
+  border: solid #0f0f0e 2px;
+  background: #ffa225;
+  font-size: 1.2vw;
+  transition: ease-out 0.4s;
+  margin-top: 40px;
 }
 
 .contact button a {
-    text-decoration: none;
-    color: #0F0F0E;
-    transition: ease-out 0.4s;
+  text-decoration: none;
+  color: #0f0f0e;
+  transition: ease-out 0.4s;
 }
 
 .contact button:hover {
-    background: #FFFFFF;
-    cursor: pointer;
-    box-shadow: inset 350px 0 0 0 #FFFFFF;
-    color: #0F0F0E;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: inset 350px 0 0 0 #ffffff;
+  color: #0f0f0e;
 }
 
 .contact button:hover a {
-    color: #0F0F0E;
+  color: #0f0f0e;
 }
 
 .contact div {
-    align-items: center;
-    text-align: center;
-    font-size: 1.3vw;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3vw;
 }
 
 .contact div i {
-    color: #FFA225;
-    font-size: 48px;
+  color: #ffa225;
+  font-size: 48px;
 }
 
 .bottom {
-    color: #FFA225;
-    text-align: center;
-    margin-top: 130px;
-    padding: 20px;
-    font-weight: 200;
-    font-size: 1.5vw;
+  color: #ffa225;
+  text-align: center;
+  margin-top: 130px;
+  padding: 20px;
+  font-weight: 200;
+  font-size: 1.5vw;
 }
 
 .linkedin h3 {
-    font-size: 1.4vw;
+  font-size: 1.4vw;
 }
 
 .email h3 {
-    font-size: 1.4vw;
+  font-size: 1.4vw;
 }
