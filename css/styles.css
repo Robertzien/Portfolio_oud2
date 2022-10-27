@@ -31,7 +31,7 @@
 }
 
 .intro-text {
-  font-size: 1.3vw;
+  font-size: 18px;
   width: 80%;
   font-weight: 200;
   margin-top: 2.5%;
@@ -149,49 +149,6 @@
   justify-content: space-evenly;
   align-items: center;
   border-bottom: dotted 3px #0f0f0e;
-}
-
-@media only screen and (max-width: 768px) {
-  .project {
-    flex-direction: column;
-    text-align: center;
-  }
-  #section3 .project-image {
-    width: 80%;
-  }
-  #section3 .project-description {
-    font-size: 16px;
-  }
-  #section3 .project-title {
-    font-size: 22px;
-    padding-bottom: 2%;
-  }
-  .section3-title {
-    font-size: 24px;
-    padding-bottom: 0%;
-  }
-}
-
-@media only screen and (min-width:769px) and (max-width: 1025px) {
-  #section3 .project-description {
-    font-size: 16px;
-  }
-  #section3 .project-image {
-    width: 50%;
-    margin-left: 2%;
-    margin-top: 0%;
-  }
-  #section3 .project-title {
-    font-size: 22px;
-    padding-bottom: 20px;
-  }
-  .section3-title {
-    font-size: 26px;
-    padding-bottom: 0%;
-  }
-  #section3 .project-button {
-    width: 75%;
-  }
 }
 
 .project-left {
@@ -318,4 +275,48 @@
 
 .email h3 {
   font-size: 1.4vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+  #section3 .project-image {
+    width: 80%;
+  }
+  #section3 .project-description {
+    font-size: 16px;
+  }
+  #section3 .project-title {
+    font-size: 22px;
+    padding-bottom: 2%;
+  }
+  .section3-title {
+    font-size: 24px;
+    padding-bottom: 0%;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width: 1025px) {
+  #section3 .project-description {
+    font-size: 16px;
+  }
+  #section3 .project-image {
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 0%;
+  }
+  #section3 .project-title {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .section3-title {
+    font-size: 26px;
+    padding-bottom: 0%;
+  }
+  #section3 .project-button {
+    width: 75%;
+  }
+  
 }
